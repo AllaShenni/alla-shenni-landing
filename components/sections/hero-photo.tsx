@@ -29,7 +29,7 @@ export function HeroPhoto() {
 
 
       {/* Decorative ring */}
-      <div className="absolute -top-3 -left-3 w-[calc(100%+1.5rem)] h-[calc(100%+1.5rem)] rounded-full border-2 border-primary/40 pointer-events-none z-0" />
+      <div className="absolute -top-5 -left-5 w-full h-full rounded-full bg-primary/25 pointer-events-none z-0" />
 
       {/* Photo container */}
       <div className="relative w-full h-full rounded-full overflow-hidden bg-white">
