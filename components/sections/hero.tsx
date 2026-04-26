@@ -1,4 +1,4 @@
-import { Send, ChevronDown } from "lucide-react"
+import { Send, ChevronDown, FileText } from "lucide-react"
 import { HeroPhoto } from "@/components/sections/hero-photo"
 import { AnimatedCounter } from "@/components/ui/animated-counter"
 import { ToolTicker } from "@/components/ui/tool-ticker"
@@ -64,6 +64,15 @@ export function Hero() {
               >
                 <Send className="h-4 w-4" />
                 Написать в Telegram
+              </a>
+              <a
+                href="https://docs.google.com/document/d/1OMWVOghw5wOBmWhn9c6ZTLEToi5NJRdSpAtVF8od84c/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 border border-border hover:border-primary/50 text-foreground hover:text-primary font-medium px-8 py-3.5 rounded-full transition-colors text-base"
+              >
+                <FileText className="h-4 w-4" />
+                Резюме
               </a>
               <a
                 href="#services"
