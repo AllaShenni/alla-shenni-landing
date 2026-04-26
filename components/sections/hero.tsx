@@ -66,6 +66,13 @@ export function Hero() {
                 Написать в Telegram
               </a>
               <a
+                href="#services"
+                className="inline-flex items-center justify-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-base"
+              >
+                Подробнее
+                <ChevronDown className="h-4 w-4" />
+              </a>
+              <a
                 href="https://docs.google.com/document/d/1OMWVOghw5wOBmWhn9c6ZTLEToi5NJRdSpAtVF8od84c/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -73,13 +80,6 @@ export function Hero() {
               >
                 <FileText className="h-4 w-4" />
                 Резюме
-              </a>
-              <a
-                href="#services"
-                className="inline-flex items-center justify-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-base"
-              >
-                Подробнее
-                <ChevronDown className="h-4 w-4" />
               </a>
             </div>
           </div>
