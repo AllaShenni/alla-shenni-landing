@@ -76,7 +76,7 @@ export function Hero() {
                 href="https://docs.google.com/document/d/1OMWVOghw5wOBmWhn9c6ZTLEToi5NJRdSpAtVF8od84c/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 border border-border hover:border-primary/50 text-foreground hover:text-primary font-medium px-8 py-3.5 rounded-full transition-colors text-base"
+                className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/85 text-primary-foreground font-medium px-8 py-3.5 rounded-full transition-colors text-base"
               >
                 <FileText className="h-4 w-4" />
                 Резюме
