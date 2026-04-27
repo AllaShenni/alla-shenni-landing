@@ -103,7 +103,7 @@ export function Hero() {
         </div>
 
         {/* Education */}
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="bg-card/50 border border-border rounded-2xl px-6 py-5 space-y-3">
             <p className="text-xs text-primary tracking-[0.15em] uppercase font-medium">Образование</p>
             <div className="space-y-2">
