@@ -5,7 +5,7 @@ const toolBadges = [
   "VK", "Tilda", "Figma", "Notion", "Asana",
   "Mts-link", "Zoom", "Bizon365", "CRM-системы", "GetCourse", "Telegram",
   "VK", "Tilda", "Figma", "Notion", "Asana",
-  "OBS", "YouTube", "ChatGPT", "Claude Code", "Photoshop", "и многие другие",
+  "OBS", "YouTube", "ChatGPT", "Claude Code", "Photoshop", "HelpDesk", "и многие другие",
 ]
 
 export function SocialProof() {
