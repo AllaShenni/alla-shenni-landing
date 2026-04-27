@@ -103,7 +103,7 @@ export function Hero() {
         </div>
 
         {/* Education */}
-        <div className="mt-14">
+        <div id="about" className="mt-14">
           <p className="text-sm text-primary tracking-[0.2em] uppercase font-medium mb-4">
             Обо мне
           </p>

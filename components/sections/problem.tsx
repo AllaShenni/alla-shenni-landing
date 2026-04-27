@@ -18,7 +18,7 @@ const problems = [
 
 export function Problem() {
   return (
-    <section id="about" className="py-12 md:py-16">
+    <section className="py-12 md:py-16">
       <div className="container mx-auto px-6 max-w-6xl">
         {/* Header */}
         <div className="max-w-xl mb-10">
