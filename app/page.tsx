@@ -1,4 +1,5 @@
 import { Nav } from "@/components/sections/nav"
+import { ScrollToTop } from "@/components/ui/scroll-to-top"
 import { Hero } from "@/components/sections/hero"
 import { Problem } from "@/components/sections/problem"
 import { Solution } from "@/components/sections/solution"
@@ -22,6 +23,7 @@ export default function Home() {
       <Faq />
       <FinalCta />
       <Footer />
+      <ScrollToTop />
     </main>
   )
 }
