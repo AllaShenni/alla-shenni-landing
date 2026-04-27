@@ -1,9 +1,9 @@
 "use client"
 
 const DEFAULT_TOOLS = [
-  "Mts-link", "Zoom", "Bizon365", "GetCourse", "Telegram",
+  "Mts-link", "Zoom", "Bizon365", "CRM-системы", "GetCourse", "Telegram",
   "VK", "Tilda", "Figma", "Notion", "Asana",
-  "OBS", "YouTube", "ChatGPT", "Photoshop", "Discord", "CRM-системы", "и другие",
+  "OBS", "YouTube", "ChatGPT", "Photoshop", "Discord", "и другие",
 ]
 
 interface ToolTickerProps {

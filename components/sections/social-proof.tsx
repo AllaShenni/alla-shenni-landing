@@ -3,7 +3,9 @@ import { ToolTicker } from "@/components/ui/tool-ticker"
 const toolBadges = [
   "Mts-link", "Zoom", "Bizon365", "GetCourse", "Telegram",
   "VK", "Tilda", "Figma", "Notion", "Asana",
-  "OBS", "YouTube", "ChatGPT", "Claude Code", "Photoshop", "CRM-системы", "и многие другие",
+  "Mts-link", "Zoom", "Bizon365", "CRM-системы", "GetCourse", "Telegram",
+  "VK", "Tilda", "Figma", "Notion", "Asana",
+  "OBS", "YouTube", "ChatGPT", "Claude Code", "Photoshop", "и многие другие",
 ]
 
 export function SocialProof() {
