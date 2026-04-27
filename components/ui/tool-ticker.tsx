@@ -3,7 +3,7 @@
 const DEFAULT_TOOLS = [
   "Mts-link", "Zoom", "Bizon365", "GetCourse", "Telegram",
   "VK", "Tilda", "Figma", "Notion", "Asana",
-  "OBS", "YouTube", "ChatGPT", "Photoshop", "Discord", "и другие",
+  "OBS", "YouTube", "ChatGPT", "Photoshop", "Discord", "CRM-системы", "и другие",
 ]
 
 interface ToolTickerProps {
