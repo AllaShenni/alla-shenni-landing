@@ -104,9 +104,13 @@ export function Hero() {
 
         {/* Education */}
         <div className="mt-14">
-          <p className="text-sm text-primary tracking-[0.2em] uppercase font-medium mb-6">
-            Полученное образование
+          <p className="text-sm text-primary tracking-[0.2em] uppercase font-medium mb-4">
+            Обо мне
           </p>
+          <h2 className="font-cormorant text-4xl md:text-5xl font-light text-foreground mb-8">
+            Полученное{" "}
+            <em className="italic text-primary">образование</em>
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <div className="bg-card/50 border border-border rounded-2xl px-4 py-4 space-y-1">
               <p className="text-sm text-foreground font-medium leading-snug">Нетология</p>
