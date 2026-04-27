@@ -18,10 +18,12 @@ export function FinalCta() {
             <h2 className="font-cormorant text-4xl md:text-5xl lg:text-6xl font-light text-foreground leading-tight">
               Ваша онлайн-школа заслуживает{" "}
               <em
-                className="italic text-primary whitespace-nowrap"
+                className="italic text-primary sm:whitespace-nowrap"
                 style={{ textShadow: "8px 9px 8px rgba(0,0,0,0.32)", fontSize: "106%" }}
               >
-                надёжного сотрудника
+                надёжного{" "}
+                <br className="sm:hidden" />
+                сотрудника
               </em>
             </h2>
 
