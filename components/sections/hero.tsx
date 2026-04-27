@@ -103,31 +103,29 @@ export function Hero() {
         </div>
 
         {/* Education */}
-        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="bg-card/50 border border-border rounded-2xl px-6 py-5 space-y-3">
-            <p className="text-xs text-primary tracking-[0.15em] uppercase font-medium">Образование</p>
-            <div className="space-y-2">
-              <p className="text-sm text-foreground font-medium">Нетология</p>
-              <p className="text-xs text-muted-foreground">Куратор и технический администратор онлайн-школы</p>
+        <div className="mt-14">
+          <p className="text-sm text-primary tracking-[0.2em] uppercase font-medium mb-6">
+            Полученное образование
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className="bg-card/50 border border-border rounded-2xl px-4 py-4 space-y-1">
+              <p className="text-sm text-foreground font-medium leading-snug">Нетология</p>
+              <p className="text-xs text-muted-foreground leading-relaxed">Куратор и технический администратор онлайн-школы</p>
             </div>
-            <div className="border-t border-border/50 pt-2 space-y-2">
-              <p className="text-sm text-foreground font-medium">Белый Edtech&amp;Elearn (Точка доступа)</p>
-              <p className="text-xs text-muted-foreground">Куратор онлайн-школы</p>
+            <div className="bg-card/50 border border-border rounded-2xl px-4 py-4 space-y-1">
+              <p className="text-sm text-foreground font-medium leading-snug">Белый Edtech&amp;Elearn</p>
+              <p className="text-xs text-muted-foreground leading-relaxed">Куратор онлайн-школы (Точка доступа)</p>
             </div>
-          </div>
-          <div className="bg-card/50 border border-border rounded-2xl px-6 py-5 space-y-3">
-            <p className="text-xs text-primary tracking-[0.15em] uppercase font-medium">Курсы</p>
-            <div className="space-y-2">
-              <p className="text-sm text-foreground font-medium">Школа продаж С.Костенкова</p>
-              <p className="text-xs text-muted-foreground">Продажи и работа с клиентами</p>
+            <div className="bg-card/50 border border-border rounded-2xl px-4 py-4 space-y-1">
+              <p className="text-sm text-foreground font-medium leading-snug">Школа продаж С.Костенкова</p>
+              <p className="text-xs text-muted-foreground leading-relaxed">Продажи и работа с клиентами</p>
             </div>
-            <div className="border-t border-border/50 pt-2 space-y-2">
-              <p className="text-sm text-foreground font-medium">Onskills</p>
-              <p className="text-xs text-muted-foreground">Специалист технической поддержки (L1)</p>
+            <div className="bg-card/50 border border-border rounded-2xl px-4 py-4 space-y-1">
+              <p className="text-sm text-foreground font-medium leading-snug">Onskills</p>
+              <p className="text-xs text-muted-foreground leading-relaxed">Специалист технической поддержки (L1)</p>
             </div>
           </div>
         </div>
-      </div>
     </section>
   )
 }
