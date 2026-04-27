@@ -122,7 +122,7 @@ export function Hero() {
             </div>
             <div className="bg-card/50 border border-border rounded-2xl px-4 py-4 space-y-1">
               <p className="text-sm text-foreground font-medium leading-snug">Школа продаж С.Костенкова</p>
-              <p className="text-xs text-muted-foreground leading-relaxed">Продажи и работа с клиентами</p>
+              <p className="text-xs text-muted-foreground leading-relaxed">Техники продаж и работы с клиентами</p>
             </div>
             <div className="bg-card/50 border border-border rounded-2xl px-4 py-4 space-y-1">
               <p className="text-sm text-foreground font-medium leading-snug">Onskills</p>
